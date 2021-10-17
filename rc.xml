@@ -292,7 +292,7 @@
     <!-- Keybindings  -->
     <keybind key="w-t">
       <action name="Execute">
-        <command>terminator</command>
+        <command>kitty</command>
       </action>
     </keybind>
     <keybind key="w-r">

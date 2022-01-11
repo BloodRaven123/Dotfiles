@@ -289,7 +289,7 @@
         </finalactions>
       </action>
     </keybind>
-    <!-- Keybindings  -->
+    <!-- Keybindings for running applications  -->
     <keybind key="w-t">
       <action name="Execute">
         <command>kitty</command>
@@ -297,19 +297,20 @@
     </keybind>
     <keybind key="w-r">
       <action name="Execute">
-        <command>dmenu_run</command>
+        <command>rofi -show run</command>
       </action>
-    </keybind>
-    <keybind key="w-v">
-      <action name="Execute">
-        <command>pavucontrol</command>
-      </action>
-    </keybind>
+    </keybind>   
     <keybind key="w-b">
       <action name="Execute">
         <command>brave-browser</command>
       </action>
     </keybind>
+    <keybind key="w-p">
+      <action name="Execute">
+        <command>openbox --reconfigure</command>
+      </action>
+    </keybind>
+    <!-- End -->      
     <keybind key="C-A-Tab">
       <action name="NextWindow">
         <panels>yes</panels>
@@ -340,16 +341,6 @@
     <keybind key="W-S-Down">
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
-      </action>
-    </keybind>
-    <!-- Keybindings for running applications -->
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->

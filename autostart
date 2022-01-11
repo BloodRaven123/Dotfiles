@@ -1,7 +1,6 @@
-tint2 &
-
 nitrogen --restore &
 
-compton &
+picom &
 
-obconf &
+tint2 &
+
